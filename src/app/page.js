@@ -18,6 +18,7 @@ export default function Home() {
 
   const handleUpdateTitle = () => {
     setTitleIndex((prevIndex) => (prevIndex + 1) % titles.length);
+    document.title = titles[titleIndex];
   };
 
   const handleOpenUrl = () => {
