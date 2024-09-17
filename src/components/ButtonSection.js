@@ -32,12 +32,12 @@ const ButtonSection = ({ onUpdateTitle, onOpenUrl }) => {
       >
         Show Snacker
       </button>
-      {/* <button
+      <button
         onClick={handleChangeColor}
         className={`${buttonColor} hover:opacity-80 text-white font-bold py-2 px-4 rounded`}
       >
         Change Color
-      </button> */}
+      </button>
       <button
         onClick={onUpdateTitle}
         className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
