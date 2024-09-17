@@ -39,17 +39,18 @@ const ButtonSection = ({ onUpdateTitle, onOpenUrl }) => {
         Change Color
       </button>
       <button
-        onClick={onUpdateTitle}
-        className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
-      >
-        Update Title
-      </button>
-      <button
         onClick={onOpenUrl}
         className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded"
       >
         Open URL
       </button>
+      <button
+        onClick={onUpdateTitle}
+        className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+      >
+        Update Title
+      </button>
+     
     </div>
   );
 };
