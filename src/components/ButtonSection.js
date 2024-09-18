@@ -26,18 +26,19 @@ const ButtonSection = ({ onUpdateTitle, onOpenUrl }) => {
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-      <button
-        onClick={handleShowSnack}
-        className="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded"
-      >
-        Show Snacker
-      </button>
-      <button
+        <button
         onClick={handleChangeColor}
         className={`${buttonColor} hover:opacity-80 text-white font-bold py-2 px-4 rounded`}
       >
         Change Color
       </button>
+      <button
+        onClick={handleShowSnack}
+        className="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded"
+      >
+        Show Snackersss
+      </button>
+    
       <button
         onClick={onOpenUrl}
         className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded"
