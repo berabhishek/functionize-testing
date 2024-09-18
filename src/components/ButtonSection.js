@@ -49,7 +49,7 @@ const ButtonSection = ({ onUpdateTitle, onOpenUrl }) => {
         onClick={onUpdateTitle}
         className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
       >
-        Update Title
+        Update title
       </button>
      
     </div>
